@@ -1,23 +1,38 @@
-.cabecalho {
-    background-color: black;
-    color: azure;
-    display: flex;
-    padding: 24px 0;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.section1 {
-    background-color: black;
-    padding: 100px;
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
 }
 
-.section2 {
-    background-color: black;
-    padding: 100px;
+header h1 {
+    margin: 0;
 }
 
-.rodape{
-    background-color: azure;
+section {
+    padding: 20px;
+    text-align: center;
 }
-.bebidas1{
-    width: 50%;
+
+section img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer img {
+    width: 100px;
+    height: auto;
+    margin: 10px 0;
 }
